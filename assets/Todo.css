@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+body {
+  margin: 0px;
+  /* background-color: #acb9bf; */
+  background-color: #363538;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+  /* color: #f9ae65; */
+  text-align: center;
+  /* //color: #ff5f09; */
+  color: #52d6f4;
+  /* color: #f6f6f6; */
+  font-size: 50px;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+strong {
+  /* color: #52d6f4; */
+  color: #f9ae65;
+}
+b {
+  color: #e8b38c;
+}
+/* h2 {
+  color: #f9ae65;
+  text-align: center;
+} */
+#text-holder {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.add-icon {
+  width: 30px;
+  font-size: 25px;
+}
+.input {
+    
+    /* box-sizing: border-box; */
+    border: 2px solid  #52666b;
+    border-radius: 4px;
+
+    height: 30px;
+  width: 450px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+/* Change background and border color on focus */
+.input:focus {
+    background-color: #f0f8ff;
+    border-color: #c88251;
+    outline: none; /* Remove default outline */
+}
+
+.input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+#add-btn {
+  background-color: #52d6f4;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+#add-btn:hover {
+  background-color: #f9ae65;
+}
+#content {
+  background-color: aliceblue;
+   max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  text-align: start;
+  padding: 20px;
+  border: 1px solid black;
+}
+.checklist-item {
+    display: flex;
+    /* margin-bottom: 10px; */
+    align-items: center;
+   padding: 10px;
+
+}
+.checklist-item p {
+    margin: 0px 10px;
+    flex: 1; /* This allows the paragraph to take up available space */
+}
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+@media (max-width: 560px) {
+  #content {
+    width: 85%;
+  }
+  #text-holder {
+    width: 85%;
+  }
+}
