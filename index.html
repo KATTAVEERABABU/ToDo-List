@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="./Todo.css" />
+    <link rel="icon" href="./todoicon.png" />
+  </head>
+  <body>
+    <div id="input-container">
+    <h1>
+      <strong>T</strong>o<strong>D</strong>o <b>- </b><strong>L</strong>ist
+    </h1>
+      <div id="text-holder" style="margin-top:30vh">
+        <input
+        required
+            id="input-holder"
+            type="text"
+            placeholder="What needs to be done...?"
+            class="input" 
+        />
+        <button id="add-btn"><i class="fa-solid fa-plus add-icon"></i></button>
+      </div>
+    </div>
+      <div id="content" style="display: none;">
+
+    </div>
+    <script src="./todo.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0e58dd38ed.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
